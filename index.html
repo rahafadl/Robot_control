@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحكم في حركة الروبوت</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button-row {
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* تحسين ترتيب الأزرار */
+        .top-buttons {
+            margin-bottom: 20px;
+        }
+
+        .middle-buttons {
+            margin: 20px 0;
+        }
+
+        .bottom-buttons {
+            margin-top: 20px;
+        }
+
+        .stop-button {
+            background-color: #8471ee;
+        }
+        .stop-button:hover {
+            background-color: #5b63d1;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>تحكم في حركة الروبوت</h1>
+    <form method="POST" action="controller.php">
+        <div class="button-container">
+            <!-- الأزرار العلوية -->
+            <div class="top-buttons">
+                <button type="submit" name="direction" value="front">أمام</button>
+            </div>
+
+            <!-- أزرار لليمين واليسار -->
+            <div class="button-row middle-buttons">
+                <button type="submit" name="direction" value="left">يسار</button>
+                <button type="submit" name="direction" value="stop" class="stop-button">إيقاف</button>
+                <button type="submit" name="direction" value="right">يمين</button>
+            </div>
+
+            <!-- الأزرار السفلية -->
+            <div class="bottom-buttons">
+                <button type="submit" name="direction" value="back">خلف</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
