@@ -66,6 +66,10 @@ CREATE TABLE directions (
 https://github.com/rahafadl/Robot_control/blob/a9bc6ee19600128df56f51c1bebb47b2ec4d69f1/%D8%AD%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA..JPG
 
 
+   last_direction.php لرؤية آخر اتجاه محفوظ.
+
+https://github.com/rahafadl/Robot_control/blob/5e8d63c43e08aee831f53072bbf34d8f2996f62b/%D8%AD%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA...JPG
+
     عند الضغط على أي زر، سيتم إرسال الاتجاه إلى الخادم وتخزينه في قاعدة البيانات.
 
 https://github.com/rahafadl/Robot_control/blob/4199118136998b4e3e15dd9412f8808ff54df011/%D8%AD%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%88%D8%AA.JPG
